@@ -14,7 +14,7 @@ public class DBUtil {
 
 		try {
 			String driver = "com.mysql.jdbc.Driver";
-			String url = "jdbc:mysql://localhost:3306/gestionprojet";
+			String url = "jdbc:mysql://localhost:3306/locationvoiture";
 			String user = "root";
 			String password = "";
 			Class.forName(driver);
