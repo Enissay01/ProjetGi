@@ -17,6 +17,13 @@ public Voiture(String marque, String type, String dateMiseServise, float prix, A
 	this.prix = prix;
 	this.mesLocations = mesLocations;
 }
+public Voiture(String marque, String type, String dateMiseServise, float prix) {
+	super();
+	this.marque = marque;
+	this.type = type;
+	this.dateMiseServise = dateMiseServise;
+	this.prix = prix;
+}
 public Voiture() {
 	super();
 	mesLocations = new ArrayList<Location>();
